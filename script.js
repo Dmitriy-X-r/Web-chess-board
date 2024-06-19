@@ -1,6 +1,6 @@
 function createChessboard(){
     
-    let chessBoard = document.getElementById("chessboard");
+    let chessBoard = document.querySelector(".chessboard");
     for(let row = 0; row < 8; row++){
         for(let col = 0; col < 8; col++){
             let cell = document.createElement("div");
